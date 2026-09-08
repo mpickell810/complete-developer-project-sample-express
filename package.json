@@ -1,16 +1,17 @@
 {
   "name": "sample-express",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2"
   },
   "devDependencies": {
     "karma": "^6.4.4"
