@@ -21,7 +21,7 @@ const queryWeatherData = (query: WeatherQueryInterface): WeatherDetailType => {
     return {
         zipcode: query.zipcode,
         weather: "sunny",
-        tmep: 35
+        temp: 35
     };
 };
 

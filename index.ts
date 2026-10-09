@@ -11,7 +11,7 @@ void {
 });
 
 server.get("/api/names", async function (_req: Request, res: Response):
-Promis<void> {
+Promise<void> {
     let response: string;
     try {
         response = await routeAPINames();
@@ -24,7 +24,7 @@ server.get(
     "/api/weather/:zipcode",
     function (req: Request, res: Response): void {
         const response = routeWeather({zipcode: req.params.zipcode});
-        res.send(repsonse);
+        res.send(response);
     }
 )
 
